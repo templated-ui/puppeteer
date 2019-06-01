@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-taobao",
-  "version": "1.17.0-post",
+  "version": "1.17.0-post1",
   "description": "A high-level API to control headless Chrome over the DevTools Protocol",
   "main": "index.js",
   "repository": "github:templated-ui/puppeteer",

@@ -2,6 +2,8 @@
 
 ##  Note
 You can download Chromium binaries from taobao when you have issue with google storage.
+![module-aliasing](docs/module-alias-taobao.png?raw=true "Module alias required")
+![module-aliasing](docs/tsconfig-taobao.png?raw=true "tsconfig change required")
 
 <!-- [START badges] -->
 [![Linux Build Status](https://img.shields.io/travis/com/GoogleChrome/puppeteer/master.svg)](https://travis-ci.com/GoogleChrome/puppeteer) [![Windows Build Status](https://img.shields.io/appveyor/ci/aslushnikov/puppeteer/master.svg?logo=appveyor)](https://ci.appveyor.com/project/aslushnikov/puppeteer/branch/master) [![Build Status](https://api.cirrus-ci.com/github/GoogleChrome/puppeteer.svg)](https://cirrus-ci.com/github/GoogleChrome/puppeteer) [![NPM puppeteer package](https://img.shields.io/npm/v/puppeteer.svg)](https://npmjs.org/package/puppeteer)

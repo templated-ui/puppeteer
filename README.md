@@ -1,7 +1,7 @@
 # Puppeteer
 
 ##  Note
-You can download Chromium binaries from taobao when you have issue with google storage.
+You can download Chromium binaries from taobao when you have issue with google storage. follow bellow images in note section for drop-in replace & leverage @types/puppeteer in vscode 
 ### change  `package.json` 
 
 install module-alias  package

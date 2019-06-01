@@ -1,9 +1,9 @@
 {
-  "name": "puppeteer",
+  "name": "puppeteer-taobao",
   "version": "1.17.0-post",
   "description": "A high-level API to control headless Chrome over the DevTools Protocol",
   "main": "index.js",
-  "repository": "github:GoogleChrome/puppeteer",
+  "repository": "github:templated-ui/puppeteer",
   "engines": {
     "node": ">=6.4.0"
   },
@@ -16,7 +16,7 @@
     "debug-unit": "node --inspect-brk test/test.js",
     "test-doclint": "node utils/doclint/check_public_api/test/test.js && node utils/doclint/preprocessor/test.js",
     "test": "npm run lint --silent && npm run coverage && npm run test-doclint && npm run test-node6-transformer && npm run test-types",
-    "install": "node install.js",
+    "install": "node  -r dotenv/config  install.js",
     "lint": "([ \"$CI\" = true ] && eslint --quiet -f codeframe . || eslint .) && npm run tsc && npm run doc",
     "doc": "node utils/doclint/cli.js",
     "coverage": "cross-env COVERAGE=true npm run unit",
@@ -51,6 +51,7 @@
     "@types/ws": "^6.0.1",
     "commonmark": "^0.28.1",
     "cross-env": "^5.0.5",
+    "dotenv": "^8.0.0",
     "eslint": "^5.15.1",
     "esprima": "^4.0.0",
     "jpeg-js": "^0.3.4",

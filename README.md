@@ -2,7 +2,20 @@
 
 ##  Note
 You can download Chromium binaries from taobao when you have issue with google storage.
+### change  `package.json` 
+
+install module-alias  package
+```bash
+npm i -S module-alias
+```
+
 ![module-aliasing](docs/module-alias-taobao.png?raw=true "Module alias required")
+
+also use bellow code at first line 
+```js
+require('module-alias/register')
+```
+### change `tsconfig.json` - if you use typescript for development
 ![module-aliasing](docs/tsconfig-taobao.png?raw=true "tsconfig change required")
 
 <!-- [START badges] -->
